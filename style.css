@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-nav {
+    background-color: rgb(43,60,71);
+}
+
+.bg-container {
+    background-color: rgb(202,210,197);
+}
+
+.section-big-container {
+    border-radius: 1rem;
+    width: 19rem;
+    height: 30rem;
+    background-color: rgb(53,53,53);
+}
+
+#search-placeholder::placeholder {
+    color: grey;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.2rem;
+}
+
+#search-placeholder {
+    height: 2.4rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.2rem;
+}
+
+.child-box {
+    width: 12rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.big-horizontal {
+    width: 100%;
+    height: 10rem;
+    border-radius: 1.2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .child-box {
+        width: 9rem;
+    }
+    
+}
